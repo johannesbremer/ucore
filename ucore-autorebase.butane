@@ -4,7 +4,7 @@ passwd:
   users:
     - name: core
       ssh_authorized_keys:
-        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGUdLM/3zoyce7DyY6lkX8tkZGFTD59eb0TxqlkEtwoC johannes@fedora
+        - ssh-ed25519 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDm0K+Jg3NjdZh6how5IPUzsqbno2WvfH740Fq7Lqq/N johannes@fedora.fritz.box
 storage:
   directories:
     - path: /etc/ucore-autorebase
