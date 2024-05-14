@@ -4,8 +4,7 @@ passwd:
   users:
     - name: core
       ssh_authorized_keys:
-        - YOUR_SSH_PUB_KEY_HERE
-      password_hash: YOUR_GOOD_PASSWORD_HASH_HERE
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGUdLM/3zoyce7DyY6lkX8tkZGFTD59eb0TxqlkEtwoC johannes@fedora
 storage:
   directories:
     - path: /etc/ucore-autorebase
